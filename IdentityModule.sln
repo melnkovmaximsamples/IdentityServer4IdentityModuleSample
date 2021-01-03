@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityModule.Data", "Iden
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityModule.Core", "IdentityModule.Core\IdentityModule.Core.csproj", "{6DE3CE1F-5477-4106-A77C-73EBD7F6F54B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityModule.Shared", "IdentityModule.Shared\IdentityModule.Shared.csproj", "{306E7A9A-131F-4174-BBE0-0733E67591C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{6DE3CE1F-5477-4106-A77C-73EBD7F6F54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE3CE1F-5477-4106-A77C-73EBD7F6F54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE3CE1F-5477-4106-A77C-73EBD7F6F54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306E7A9A-131F-4174-BBE0-0733E67591C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306E7A9A-131F-4174-BBE0-0733E67591C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306E7A9A-131F-4174-BBE0-0733E67591C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306E7A9A-131F-4174-BBE0-0733E67591C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

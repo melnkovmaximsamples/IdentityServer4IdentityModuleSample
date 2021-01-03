@@ -1,0 +1,33 @@
+﻿@model IdentityModule.Web.ViewModels.RegisterViewModel
+<h1>Register</h1>
+
+
+<form asp-controller="Account" asp-action="Register" method="post">
+    <div asp-validation-summary="All"></div>
+
+    <input type="hidden" asp-for="ReturnUrl" />
+    <div>
+        <label>Username</label>
+        <input asp-for="Username" autofocus />
+        <span asp-validation-for="Username"></span>
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Email"  />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Password</label>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <label>ConfirmPassword</label>
+        <input asp-for="ConfirmPassword" />
+        <span asp-validation-for="ConfirmPassword"></span>
+    </div>
+
+    <p>
+        <button type="submit">Register</button>
+    </p>
+</form>
